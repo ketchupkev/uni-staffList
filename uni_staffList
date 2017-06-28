@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script language="javascript" type="text/javascript">
+      //CHANGE THIS AS PER instructions.xml
+      var identifier="education"
+      //var areaTitle="Education - Staff List"
+    </script>
+    <script type="text/javascript" src="/componants/js/jquery.tablesorter.min.js"></script>
+    <script language=javascript src="/componants/js/jquery.color.js"></script>
+    <script type="text/javascript" src="/componants/js/build_staff_lists.js"></script>
+  </head>
+  
+  <style>
+    .stafflist_table {border:0px}
+    .stafflist_table TD {border:0px}
+    .stafflist_table TH {
+    background-color:#fff; 
+    border:0px; 
+    border-bottom:1px solid #ccc; 
+    color:#333; 
+    cursor:pointer;
+    background-image:url('http://www.lincoln.ac.uk/profiles/images/bg.gif');
+    background-repeat:no-repeat;
+    background-position:right;
+    }
+    .stafflist_table_divider {
+    font-size:0px;
+    line-height:0px;
+    border:0px; 
+    background-color:#eee; 
+    padding:0px; 
+    margin:0px; 
+    height:1px}
+    .stafflist_table_divider IMG {border:0px; height:1px; width:1px}
+    .staffLighterText{color:#888}
+    .staffTopicInterest{color:#999; font-size:11px}
+    .staffBorder{
+    background-image:url('http://www.lincoln.ac.uk/profiles/images/ltGreyBottomBorder.gif');
+    background-repeat:no-repeat;
+    background-position:bottom;
+    }
+
+    .hideMe{display:none}
+  </style>
+  
+  <body>
+    <div id="listContentWrapper">
+      <h1></h1>
+    </div>
+  </body>
+</html>
